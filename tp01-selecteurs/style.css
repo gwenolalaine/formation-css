@@ -37,6 +37,7 @@
           -webkit-border-radius:3px;
           -moz-border-radius:5px;
           border-radius:5px;
+          padding:10px;
         }
 
         input[type='submit'] {
@@ -44,6 +45,8 @@
           -webkit-border-radius:8px;
           -moz-border-radius:5px;
           border-radius:5px;
+          padding:10px;
+          margin:10px;
         }
 
         #itemField {
