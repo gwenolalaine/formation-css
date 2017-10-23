@@ -1,0 +1,53 @@
+       body {
+          background-color:#000090;
+          font-family:Helvetica, Arial;
+        }
+
+        #list_section {
+          text-align: center;
+        }
+
+        h1 {
+            color:white;
+        }
+
+        ul {
+        }
+
+        li {
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          
+        }
+
+        p {
+        }
+
+        .item {
+            padding:10px;
+          margin:10px;
+          -webkit-border-radius:5px;
+          -moz-border-radius:5px;
+          border-radius:5px;
+          background-color:white;
+        }
+
+        input[type='text'] {
+          background-color:white;
+          -webkit-border-radius:3px;
+          -moz-border-radius:5px;
+          border-radius:5px;
+        }
+
+        input[type='submit'] {
+          background-color:white;
+          -webkit-border-radius:8px;
+          -moz-border-radius:5px;
+          border-radius:5px;
+        }
+
+        #itemField {
+          background-color:white;
+          margin-top: 60px;
+          width: 10%;
+        }

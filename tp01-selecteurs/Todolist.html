@@ -14,7 +14,7 @@
         e.preventDefault();
         var text = $('input:text').val();
         if (text != "") {
-            $list.append('<li>' + text + '</li>');
+            $list.append('<li class="item">' + text + '</li>');
             $('input:text').val('');            
         }
         });
@@ -26,41 +26,7 @@
 
     });
     </script>
-    <style>
-        body {
-        }
-
-        #list_section {
-        }
-
-        h1 {
-        }
-
-        ul {
-        }
-
-        li {
-          -webkit-border-radius: 3px;
-          -moz-border-radius: 3px;
-        }
-
-        p {
-        }
-
-        .item {
-        }
-
-        input[type='text'] {
-        }
-
-        input[type='submit'] {
-        }
-
-        #itemField {
-          margin-top: 60px;
-          width: 10%;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css"/>
 </head>
 
 <body>
