@@ -32,6 +32,7 @@ body {
 
   #navigation li:hover {
       background-color:#009900;
+      text-decoration: underline;
   }
 
   h1{
